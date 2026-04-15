@@ -6,13 +6,13 @@ Movie Explorer is a responsive single-page web application built using React and
 
 ## Live Demo
 
-Add your deployed link here
+[View Application](https://movie-explorer-six-kohl.vercel.app/)
 
 ---
 
 ## Repository
 
-Add your GitHub repository link here
+[GitHub Repository](https://github.com/Navimish/Movie-Explorer)
 
 ---
 
@@ -34,18 +34,18 @@ Add your GitHub repository link here
 * Styling: Tailwind CSS
 * API: The Movie Database (TMDB)
 * State Management: React Hooks (useState, useEffect)
-* Deployment: Vercel or Netlify
+* Deployment: Vercel
 
 ---
 
 ## Architecture and Design Decisions
 
-* A custom hook (`useMovies`) is used to manage data fetching, loading state, error handling, and debouncing logic.
-* API-related logic is separated into a dedicated services layer for better maintainability.
-* The UI is divided into reusable components such as Navbar, SearchBar, MovieCard, Skeleton loaders, and Error component.
-* Debouncing is implemented to prevent excessive API calls during user input.
-* Skeleton loading is used instead of a traditional spinner to improve perceived performance.
-* When the search input is empty, popular movies are displayed to maintain a consistent user experience.
+* A custom hook (`useMovies`) is used to manage data fetching, loading state, error handling, and debouncing logic
+* API logic is separated into a dedicated services layer for better maintainability
+* The UI is divided into reusable components such as Navbar, SearchBar, MovieCard, Skeleton loaders, and Error component
+* Debouncing is implemented to prevent excessive API calls during user input
+* Skeleton loading improves perceived performance compared to traditional spinners
+* Popular movies are displayed when the search input is empty to ensure a smooth user experience
 
 ---
 
@@ -78,8 +78,8 @@ src/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/movie-explorer.git
-cd movie-explorer
+git clone https://github.com/Navimish/Movie-Explorer.git
+cd Movie-Explorer
 ```
 
 2. Install dependencies
